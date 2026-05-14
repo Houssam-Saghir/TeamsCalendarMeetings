@@ -99,10 +99,15 @@ Test:
 /me/onlineMeetings
 ⚠️ Common Issues
 ❌ “Insufficient privileges”
+
 Admin consent not granted
+
 ❌ “Need application permission”
+
 You are using app-only token instead of delegated flow
+
 ❌ Calendar works but meetings fail
+
 OnlineMeetings.ReadWrite missing admin consent
 
 
