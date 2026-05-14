@@ -74,20 +74,29 @@ Use:
 
 MSAL.NET
 Or Microsoft.Identity.Web
+
 ✅ 7. Acquire Access Token
 
 Scopes example:
 
 https://graph.microsoft.com/Calendars.ReadWrite
 https://graph.microsoft.com/OnlineMeetings.ReadWrite
+
 ✅ 8. Call Microsoft Graph APIs
+
 📅 Create Calendar Event
+
 POST https://graph.microsoft.com/v1.0/me/events
+
 🎥 Create Online Meeting
+
 POST https://graph.microsoft.com/v1.0/me/onlineMeetings
+
 ✅ 9. Example Headers
+
 Authorization: Bearer ACCESS_TOKEN
 Content-Type: application/json
+
 ✅ 10. Verify Permissions Work
 
 Use Graph Explorer:
@@ -98,6 +107,7 @@ Test:
 /me/events
 /me/onlineMeetings
 ⚠️ Common Issues
+
 ❌ “Insufficient privileges”
 
 Admin consent not granted
