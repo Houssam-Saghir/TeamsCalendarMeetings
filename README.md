@@ -104,20 +104,5 @@ Admin consent not granted
 You are using app-only token instead of delegated flow
 ❌ Calendar works but meetings fail
 OnlineMeetings.ReadWrite missing admin consent
-🧠 Simple Architecture Summary
-SPA / Angular:
 
-User logs in → MSAL → Delegated token → Call Graph API
 
-Backend (.NET):
-
-User login → token acquisition → GraphServiceClient → API calls
-
-If you want, I can next give you:
-
-Full ASP.NET Core working sample
-Angular MSAL implementation
-Or 
-Postman setup to test everything quickly
-
-Just tell me 👍
